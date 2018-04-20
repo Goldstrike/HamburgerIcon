@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Home page"
+             x:Class="HamburgerIcon.HomePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms! This is Home page"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Margin="0,10,0,0" Text="Go to child page" 
+                    Clicked="OnButtonClicked"
+                    BackgroundColor="{StaticResource Primary}" TextColor="White" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

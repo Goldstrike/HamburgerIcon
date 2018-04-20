@@ -7,11 +7,15 @@ using Xamarin.Forms;
 
 namespace HamburgerIcon
 {
-	public partial class MainPage : ContentPage
+	public partial class MainPage : MasterDetailPage
 	{
 		public MainPage()
 		{
 			InitializeComponent();
+
+            Master = new MenuPage();
+            Detail = new NavigationPage(new HomePage());
+            Icon = "icon.png";
 		}
 	}
 }

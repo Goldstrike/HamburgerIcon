@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Hamburger icon demo"
+             Icon="icon.png"
+             x:Class="HamburgerIcon.MenuPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Menu "
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="icon.png" />
+            <Label Text="Item 1 "
+                HorizontalOptions="StartAndExpand" />
+            <Label Text="Item 2 "
+                HorizontalOptions="StartAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
