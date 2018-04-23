@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HamburgerIcon.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,8 @@ namespace HamburgerIcon
 			InitializeComponent();
 
             Master = new MenuPage();
-            Detail = new NavigationPage(new HomePage());
+            //Detail = new NavigationPage(new HomePage());
+            Detail = new CustomNavigationPage(new HomePage());
             Icon = "icon.png";
 		}
 	}
